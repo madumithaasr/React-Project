@@ -1,0 +1,58 @@
+.main{
+    backdrop-filter: blur(20px);
+      width:480px;
+      height: 380px;
+      font-family:cursive;
+      margin-top:1px;
+      margin-left: 163px;
+      border-radius: 20px;
+      box-shadow: 1px 2px 6px 2px rgb(29, 28, 23);
+      padding: 10px;
+      
+      text-align: center;
+    }
+    body{
+      background-image: url("C:\Users\91999\Downloads\im 1.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .topic{
+      
+      font-family:cursive;
+      margin-top:100px;
+      margin-left: 298px;
+      font-size:45px;
+    }
+    
+    .inpt{
+      width: 220px;
+      height: 30px;
+      font-size: 15px;
+      color: rgb(8, 8, 7);
+      mix-blend-mode: multiply;
+      
+    }
+    
+    .inpt:focus{
+      border: 2px solid rgb(6, 6, 6);
+      border-style: groove;
+    }
+    .btn{
+      width: 253px;
+      height: 35px;
+      background-color: hsl(21, 72%, 66%);
+      border-radius: 10px;
+      
+      
+    }
+    .btn:hover{
+      opacity: 0.7;
+    
+    }
+    .btn:active{
+      transform: translateY(5px);
+    }
+    .link{
+      text-decoration: none;
+      color:rgb(11, 11, 10)
+    }
